@@ -6,12 +6,19 @@
     <style>
         body { font-family: 'Segoe UI', sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background: #eef2f3; }
         
-        .card { 
-            background: white; padding: 25px; border-radius: 20px; 
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; 
-            width: 90%; max-width: 420px; margin: 20px 0;
-            max-height: 90vh; overflow-y: auto; /* Agar bisa discroll */
-        }
+.card { 
+    background: white; 
+    padding: 25px; 
+    border-radius: 20px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+    text-align: center; 
+    width: 95%; /* Ubah jadi 95% biar hampir full layar */
+    max-width: 800px; /* <--- UBAH INI JADI 800px atau 1000px */
+    margin: 20px 0;
+    max-height: 90vh; 
+    overflow-y: auto;
+    position: relative;
+}
         
         h2 { margin-top: 0; color: #2c3e50; font-size: 1.5rem; }
         
@@ -132,13 +139,6 @@
                 <option value="1.0" selected>Level 6 (Normal)</option>
                 <option value="1.1">Level 7 (110%)</option>
                 <option value="1.2">Level 8 (120%)</option>
-                <option value="1.3">Level 9 (130%)</option>
-                <option value="1.4">Level 10 (140%)</option>
-                <option value="1.5">Level 11 (150%)</option>
-                <option value="1.6">Level 12 (160%)</option>
-                <option value="1.7">Level 13 (170%)</option>
-                <option value="1.8">Level 14 (180%)</option>
-                <option value="1.9">Level 15 (190%)</option>
             </select>
             </div>
         </div>
