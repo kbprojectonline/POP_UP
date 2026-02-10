@@ -13,7 +13,7 @@
     box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
     text-align: center; 
     width: 95%; /* Ubah jadi 95% biar hampir full layar */
-    max-width: 800px; /* <--- UBAH INI JADI 800px atau 1000px */
+    max-width: 1000px; /* <--- UBAH INI JADI 800px atau 1000px */
     margin: 20px 0;
     max-height: 90vh; 
     overflow-y: auto;
