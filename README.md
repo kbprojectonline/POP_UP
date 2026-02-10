@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Promo - Ultimate Version</title>
+    <title>Admin Promo - Ultimate Fixed</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 
@@ -21,32 +21,30 @@
 
         body { 
             font-family: 'Inter', sans-serif; 
-            background: #eceff1; /* Background sedikit lebih gelap biar kotaknya pop-up */
+            background: #eceff1; 
             padding: 20px; 
             display: flex; flex-direction: column; align-items: center; 
             margin: 0; 
             min-height: 100vh;
         }
         
-        /* KOTAK UTAMA */
         .admin-box { 
             background: white; 
             padding: 35px; 
-            border-radius: 20px; /* Sudut lebih bulat */
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08); /* Bayangan lebih halus */
+            border-radius: 20px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
             width: 95% !important; 
             max-width: 1000px !important; 
             box-sizing: border-box; 
             position: relative; 
             margin-bottom: 50px;
-            overflow: hidden; /* Biar rapi */
+            overflow: hidden; 
         }
         
-        /* JUDUL SANGAT KECIL (HALUS) */
         h1 { 
             color: var(--text-muted); 
             margin: 0 0 20px 0; 
-            font-size: 0.65rem; /* SANGAT KECIL */
+            font-size: 0.65rem; 
             text-align: center; 
             text-transform: uppercase;
             letter-spacing: 2px;
@@ -54,7 +52,6 @@
             opacity: 0.7;
         }
 
-        /* MENU ZOOM */
         .menu-wrapper { position: absolute; top: 25px; right: 25px; z-index: 100; }
         .hamburger-btn {
             background: var(--bg-light); color: var(--text-dark); border: none; padding: 8px;
@@ -73,7 +70,6 @@
         .zoom-dropdown label { font-size: 0.8rem; font-weight: 700; color: var(--text-dark); margin-bottom: 8px; display: block;}
         .zoom-dropdown select { width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd; font-family: inherit; }
 
-        /* TOMBOL LOGIN / LOGOUT */
         #login-btn {
             background: #4285F4; color: white; border: none; padding: 12px 30px;
             border-radius: 50px; font-weight: 700; cursor: pointer; display: block;
@@ -83,7 +79,6 @@
         }
         #login-btn:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(66, 133, 244, 0.4); }
 
-        /* MASTER SWITCH */
         .master-box {
             background: var(--bg-light); padding: 25px; border-radius: 16px;
             display: flex; justify-content: center; align-items: center; text-align: center;
@@ -94,10 +89,9 @@
         .master-active { border-color: var(--success); background: #e8f8f5; }
         .master-inactive { border-color: var(--danger); background: #fdedec; }
 
-        /* --- ITEM ROW & KATEGORI (LEBIH LEGA) --- */
         .category-head {
             font-weight: 900; font-size: 1.2rem; 
-            margin-top: 60px; /* JARAK ATAS LEBIH JAUH */
+            margin-top: 60px; 
             margin-bottom: 20px;
             padding-left: 15px; border-left: 6px solid #ccc; color: var(--text-dark); text-transform: uppercase; letter-spacing: 1px;
         }
@@ -108,7 +102,7 @@
         .item-row { 
             display: flex; justify-content: space-between; align-items: center; 
             background: white; padding: 20px; margin-bottom: 15px; 
-            border-radius: 16px; /* Lebih bulat */
+            border-radius: 16px; 
             box-shadow: 0 2px 10px rgba(0,0,0,0.03); 
             border: 1px solid #f0f0f0; transition: 0.2s;
         }
@@ -121,7 +115,6 @@
             flex-shrink: 0;
         }
 
-        /* --- TAMPILAN HARGA BARU YANG INDAH --- */
         .item-text { display: flex; flex-direction: column; gap: 4px; }
         .item-name { font-weight: 800; font-size: 1.1rem; color: var(--text-dark); }
         
@@ -130,14 +123,8 @@
         .promo-info { font-size: 0.85rem; font-weight: 600; color: var(--success); display: flex; align-items: center; gap: 5px;}
         .strikethrough { text-decoration: line-through; color: var(--text-muted); font-weight: 400; }
 
-        /* --- TOGGLE SWITCH SUPER JUMBO (2x LIPAT) --- */
         .switch { 
-            position: relative; 
-            display: inline-block; 
-            width: 140px;   /* SANGAT LEBAR */
-            height: 70px;  /* SANGAT TINGGI */
-            flex-shrink: 0;
-            margin-left: 20px;
+            position: relative; display: inline-block; width: 140px; height: 70px; flex-shrink: 0; margin-left: 20px;
         } 
         .switch input { opacity: 0; width: 0; height: 0; }
         .slider {
@@ -146,13 +133,10 @@
             box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
         }
         .slider:before {
-            position: absolute; content: ""; 
-            height: 62px; width: 62px; /* BULATAN RAKSASA */
-            left: 4px; bottom: 4px; 
-            background-color: white;
-            transition: .4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Efek membal saat digeser */
-            border-radius: 50%;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            position: absolute; content: ""; height: 62px; width: 62px; 
+            left: 4px; bottom: 4px; background-color: white;
+            transition: .4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+            border-radius: 50%; box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
         input:checked + .slider { background-color: var(--success); }
         input:checked + .slider:before { transform: translateX(70px); }
@@ -196,7 +180,7 @@
         <div id="control-area" class="hide">
             
             <div id="master-switch-ui" class="master-box master-inactive" onclick="toggleMaster()">
-                <div id="master-status-text" style="font-weight:900; font-size:1.8rem; color:var(--danger);">OFF (MATI) ⭕</div>
+                <div id="master-status-text" style="font-weight:900; font-size:1.8rem; color:#e74c3c;">OFF (MATI) ⭕</div>
             </div>
 
             <div class="category-head head-silver">PAKET SILVER</div>
@@ -460,11 +444,11 @@
             if(status) {
                 box.className = "master-box master-active";
                 txt.innerText = "ON (MENYALA) ✅";
-                txt.style.color = var(--success);
+                txt.style.color = "#2ecc71";
             } else {
                 box.className = "master-box master-inactive";
                 txt.innerText = "OFF (MATI) ⭕";
-                txt.style.color = var(--danger);
+                txt.style.color = "#e74c3c";
             }
         }
 
@@ -481,7 +465,7 @@
             if (user && user.uid === MY_ADMIN_UID) {
                 
                 loginBtn.innerHTML = `✅ Admin: <b>${user.email}</b> (Logout)`;
-                loginBtn.style.background = var(--success);
+                loginBtn.style.background = "#2ecc71";
                 loginBtn.onclick = window.logout;
 
                 document.getElementById('control-area').classList.remove('hide');
@@ -506,7 +490,7 @@
 
             } else if (user) {
                 loginBtn.innerHTML = `⛔ AKSES DITOLAK: ${user.email} (Logout)`;
-                loginBtn.style.background = var(--danger);
+                loginBtn.style.background = "#e74c3c";
                 loginBtn.onclick = window.logout;
                 alert("Akses Ditolak: Anda bukan Admin!"); 
             } else {
