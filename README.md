@@ -123,16 +123,23 @@
             <button class="hamburger-btn" onclick="toggleZoomMenu()">☰</button>
             <div id="zoom-menu-box" class="zoom-dropdown">
                 <label style="font-size: 0.85rem; font-weight: bold;">Ukuran Layar:</label>
-                <select id="zoom-level" onchange="setZoom(this.value)">
-                    <option value="0.5">Level 1 (50%)</option>
-                    <option value="0.6">Level 2 (60%)</option>
-                    <option value="0.7">Level 3 (70%)</option>
-                    <option value="0.8">Level 4 (80%)</option>
-                    <option value="0.9">Level 5 (90%)</option>
-                    <option value="1.0" selected>Level 6 (Normal)</option>
-                    <option value="1.1">Level 7 (110%)</option>
-                    <option value="1.2">Level 8 (120%)</option>
-                </select>
+<select id="zoom-level" onchange="setZoom(this.value)">
+                <option value="0.5">Level 1 (50%)</option>
+                <option value="0.6">Level 2 (60%)</option>
+                <option value="0.7">Level 3 (70%)</option>
+                <option value="0.8">Level 4 (80%)</option>
+                <option value="0.9">Level 5 (90%)</option>
+                <option value="1.0" selected>Level 6 (Normal)</option>
+                <option value="1.1">Level 7 (110%)</option>
+                <option value="1.2">Level 8 (120%)</option>
+                <option value="1.3">Level 9 (130%)</option>
+                <option value="1.4">Level 10 (140%)</option>
+                <option value="1.5">Level 11 (150%)</option>
+                <option value="1.6">Level 12 (160%)</option>
+                <option value="1.7">Level 13 (170%)</option>
+                <option value="1.8">Level 14 (180%)</option>
+                <option value="1.9">Level 15 (190%)</option>
+            </select>
             </div>
         </div>
         <h2>🎛️ Atur Menu Promo</h2>
