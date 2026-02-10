@@ -129,7 +129,7 @@
 </head>
 <body>
 
-    <div class="card">
+    <div class="card" style="max-width: 800px !important; width: 95% !important;">
 <div class="menu-wrapper">
             <button class="hamburger-btn" onclick="toggleZoomMenu()">☰</button>
             <div id="zoom-menu-box" class="zoom-dropdown">
