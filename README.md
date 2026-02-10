@@ -13,11 +13,10 @@
             box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
             text-align: center; 
             
-            /* --- BAGIAN INI KITA PAKSA LEBAR --- */
-            width: 95% !important;        /* Wajib 95% dari layar */
-            max-width: 1000px !important; /* Wajib maksimal 1000px (Sangat Lebar) */
-            /* ----------------------------------- */
-
+            /* GANTI BAGIAN INI SAJA: */
+            width: 95% !important;
+            max-width: 1000px !important; /* Ganti angka ini jadi 1000px */
+            
             margin: 20px 0;
             max-height: 90vh; 
             overflow-y: auto; 
@@ -143,6 +142,13 @@
                 <option value="1.0" selected>Level 6 (Normal)</option>
                 <option value="1.1">Level 7 (110%)</option>
                 <option value="1.2">Level 8 (120%)</option>
+                <option value="1.3">Level 9 (130%)</option>
+                <option value="1.4">Level 10 (140%)</option>
+                <option value="1.5">Level 11 (150%)</option>
+                <option value="1.6">Level 12 (160%)</option>
+                <option value="1.7">Level 13 (170%)</option>
+                <option value="1.8">Level 14 (180%)</option>
+                <option value="1.9">Level 15 (190%)</option>
             </select>
             </div>
         </div>
