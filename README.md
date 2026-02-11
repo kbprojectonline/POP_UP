@@ -202,21 +202,18 @@
                 <label class="switch"><input type="checkbox" id="chk_promo_silver_100" onchange="updateItem('promo_silver_100')"><span class="slider"></span></label>
             </div>
 
-<div class="item-row">
-    <div class="item-left">
-        <div class="item-text">
-            <span class="item-name bg-silver">100 Kunci Silver (3jt)</span>
-            <div class="price-container">
-                <span class="main-price">Rp 3.000.000</span>
-                <span class="promo-info">Hemat 1.000.000</span>
+            <div class="item-row">
+                <div class="item-left">
+                    <div class="item-text">
+                        <span class="item-name bg-silver">100 Kunci Silver</span>
+                        <div class="price-container">
+                            <span class="main-price">Rp 3.000.000</span>
+                            <span class="promo-info">Hemat 1.000.000<span class="strikethrough">Rp 4.000.000</span></span>
+                        </div>
+                    </div>
+                </div>
+                <label class="switch"><input type="checkbox" id="chk_promo_silver_100_3jt" onchange="updateItem('promo_silver_100_3jt')"><span class="slider"></span></label>
             </div>
-        </div>
-    </div>
-    <label class="switch">
-        <input type="checkbox" id="chk_promo_silver_100_3jt" onchange="updateItem('promo_silver_100_3jt')">
-        <span class="slider"></span>
-    </label>
-</div>
 
             <div class="item-row">
                 <div class="item-left">
