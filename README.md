@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Promo - Ultimate Fixed</title>
+    <title>Admin Promo - Final Perfected</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 
@@ -41,17 +41,7 @@
             overflow: hidden; 
         }
         
-        h1 { 
-            color: var(--text-muted); 
-            margin: 0 0 20px 0; 
-            font-size: 0.65rem; 
-            text-align: center; 
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-weight: 700;
-            opacity: 0.7;
-        }
-
+        /* MENU ZOOM */
         .menu-wrapper { position: absolute; top: 25px; right: 25px; z-index: 100; }
         .hamburger-btn {
             background: var(--bg-light); color: var(--text-dark); border: none; padding: 8px;
@@ -70,10 +60,11 @@
         .zoom-dropdown label { font-size: 0.8rem; font-weight: 700; color: var(--text-dark); margin-bottom: 8px; display: block;}
         .zoom-dropdown select { width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd; font-family: inherit; }
 
+        /* TOMBOL LOGIN SEKARANG DI PALING ATAS DENGAN MARGIN TOP */
         #login-btn {
             background: #4285F4; color: white; border: none; padding: 12px 30px;
             border-radius: 50px; font-weight: 700; cursor: pointer; display: block;
-            margin: 0 auto 25px auto;
+            margin: 20px auto 30px auto; /* Ada margin atas sekarang */
             font-size: 0.95rem; box-shadow: 0 4px 15px rgba(66, 133, 244, 0.3);
             transition: 0.3s; letter-spacing: 0.5px;
         }
@@ -89,10 +80,11 @@
         .master-active { border-color: var(--success); background: #e8f8f5; }
         .master-inactive { border-color: var(--danger); background: #fdedec; }
 
+        /* JUDUL KATEGORI LEBIH LEGA LAGI */
         .category-head {
             font-weight: 900; font-size: 1.2rem; 
-            margin-top: 60px; 
-            margin-bottom: 20px;
+            margin-top: 90px; /* JARAK DITAMBAH JADI 90px */
+            margin-bottom: 25px;
             padding-left: 15px; border-left: 6px solid #ccc; color: var(--text-dark); text-transform: uppercase; letter-spacing: 1px;
         }
         .head-silver { border-color: var(--silver); color: #7f8c8d; }
@@ -109,18 +101,25 @@
         .item-row:hover { border-color: #e0e0e0; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
         
         .item-left { display: flex; align-items: flex-start; gap: 20px; flex: 1; }
+        
+        /* IKON DIPASTIKAN DITENGAH (CENTERED) */
         .key-icon-box {
             width: 60px; height: 60px; background: var(--bg-light); border-radius: 12px;
-            display: flex; justify-content: center; align-items: center; font-size: 2rem;
-            flex-shrink: 0;
+            display: flex; justify-content: center; align-items: center; /* Ini kuncinya agar simetris */
+            font-size: 2rem; flex-shrink: 0;
         }
 
         .item-text { display: flex; flex-direction: column; gap: 4px; }
         .item-name { font-weight: 800; font-size: 1.1rem; color: var(--text-dark); }
         
+        /* SPASI HARGA CORET LEBIH LEBAR */
         .price-container { display: flex; flex-direction: column; }
         .main-price { font-size: 1.3rem; font-weight: 900; color: var(--primary); }
-        .promo-info { font-size: 0.85rem; font-weight: 600; color: var(--success); display: flex; align-items: center; gap: 5px;}
+        .promo-info { 
+            font-size: 0.85rem; font-weight: 600; color: var(--success); 
+            display: flex; align-items: center; 
+            gap: 15px; /* JARAK DIPERLEBAR JADI 15px */
+        }
         .strikethrough { text-decoration: line-through; color: var(--text-muted); font-weight: 400; }
 
         .switch { 
@@ -172,8 +171,6 @@
                 </select>
             </div>
         </div>
-
-        <h1>🛠️ Aktifkan POP UP</h1>
 
         <button id="login-btn" onclick="loginGoogle()">🔑 LOGIN ADMIN (Google)</button>
 
