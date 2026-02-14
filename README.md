@@ -65,7 +65,7 @@
             background: #4285F4; color: white; border: none; padding: 12px 30px;
             border-radius: 50px; font-weight: 700; cursor: pointer; display: block;
             margin: 20px auto 30px auto;
-            font-size: 0.95rem; box-shadow: 0 4px 15px rgba(66, 133, 244, 0.3);
+            font-size: 0.80rem; box-shadow: 0 4px 15px rgba(66, 133, 244, 0.3);
             transition: 0.3s; letter-spacing: 0.5px;
         }
         #login-btn:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(66, 133, 244, 0.4); }
@@ -187,7 +187,7 @@
                 <div id="master-status-text" style="font-weight:900; font-size:1.8rem; color:#e74c3c;">OFF (MATI) ⭕</div>
             </div>
 
-<div class="category-head head-silver">PAKET SILVER</div>
+<div class="category-head head-silver">PAKET KUNCI SILVER</div>
 
             <div class="item-row">
                 <div class="item-left">
@@ -280,7 +280,7 @@
             </div>
 
 
-<div class="category-head head-gold">PAKET GOLD</div>
+<div class="category-head head-gold">PAKET KUNCI GOLD</div>
 
             <div class="item-row">
                 <div class="item-left">
@@ -358,7 +358,7 @@
             </div>
 
 
-<div class="category-head head-diamond">PAKET DIAMOND</div>
+<div class="category-head head-diamond">PAKET KUNCI DIAMOND</div>
 
             <div class="item-row">
                 <div class="item-left">
